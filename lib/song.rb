@@ -48,9 +48,7 @@ class Song
 
 
   def self.artist_count
-    @@artist_list_with_count = {}
-    @@artist_sum = 0
-
+    artist_count = Hash.new(0)
     @@artists.each do |artist|
       if @@artists.include?(artist)
         @@artist_list_with_count[artist] = (@@artist_sum +=1)
@@ -60,6 +58,12 @@ class Song
       end
 
     return @@artist_list_with_count
+
+
+    result = Hash.new(0)
+words.each { |word| result[word] += 1 }
+return result
+
 
   end
 
