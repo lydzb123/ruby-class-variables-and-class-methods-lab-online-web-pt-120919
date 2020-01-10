@@ -54,6 +54,7 @@ class Song
     @@artists.each do |artist|
       if @@artists.include?(artist)
         @@artist_list_with_count[artist] = (@@artist_sum +=1)
+        binding.pry
       end
 
       end
