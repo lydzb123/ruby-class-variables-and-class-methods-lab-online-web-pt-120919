@@ -28,7 +28,8 @@ class Song
     @@genres.uniq
   end
 
-  
+
+
 
 
 
@@ -37,7 +38,6 @@ class Song
     @@artists.each do |artist|
       artist_count[artist] += 1
     end
-
     return artist_count
 
   end
