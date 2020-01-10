@@ -42,7 +42,5 @@ class Song
 
   end
 
-  # [Brittany, jayz, jayz]
-  #
-  # {Brittany Spears"=>1, "Jay-Z"=>2}}
+
 end
