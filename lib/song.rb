@@ -57,6 +57,7 @@ class Song
       end
 
       end
+      
     return @@artist_list_with_count
 
   end
@@ -65,4 +66,3 @@ class Song
   #
   # {Brittany Spears"=>1, "Jay-Z"=>2}}
 
-end
