@@ -51,9 +51,8 @@ class Song
     artist_count = Hash.new(0)
     @@artists.each do |artist|
       artist_count[artist] += 1
-      binding.pry
-
     end
+    
     return artist_count
 
   end
