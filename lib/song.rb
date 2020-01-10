@@ -28,7 +28,7 @@ class Song
     @@genres.uniq
   end
 
-  # 
+  #
   # def self.genre_count
   #   @@genre_count = 0
   #
@@ -65,3 +65,4 @@ class Song
   # [Brittany, jayz, jayz]
   #
   # {Brittany Spears"=>1, "Jay-Z"=>2}}
+end
