@@ -28,22 +28,7 @@ class Song
     @@genres.uniq
   end
 
-  #
-  # def self.genre_count
-  #   @@genre_count = 0
-  #
-  #   @@genres.each do |genre|
-  #   @@genres.include?(genre)
-  #       genre_count += 1
-  #     end
-  #
-  #     end
-  #
-  #   @@genres_list_with_count[genre => genre_count]
-  #
-  #   end
-  #
-
+  
 
 
 
@@ -52,7 +37,7 @@ class Song
     @@artists.each do |artist|
       artist_count[artist] += 1
     end
-    
+
     return artist_count
 
   end
